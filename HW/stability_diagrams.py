@@ -15,7 +15,8 @@ def stability_plot(x, y, C, axes, title=None, continuous=True):
     x: numpy array
         array of values for the real axis
     y: numpy array
-        values to plot for the imaginary axis    C: numpy array
+        values to plot for the imaginary axis    
+    C: numpy array
         Field to plot,  either |R(z)| for a single step scheme, or max(|xi_i(z)|) for a LMM scheme
     axes: matplotlib axes object
         subplot or plot to draw in. 
